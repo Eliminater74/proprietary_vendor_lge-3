@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d851/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/lge/d851/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/d851/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/d851/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
+    vendor/lge/d851/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/d851/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/lge/d851/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/d851/proprietary/lib/libuicc.so:system/lib/libuicc.so \
@@ -66,7 +66,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d851/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/d851/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
     vendor/lge/d851/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
-    vendor/lge/d851/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/d851/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/lge/d851/proprietary/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/lge/d851/proprietary/lib/libbson.so:system/lib/libbson.so \
+    vendor/lge/d851/proprietary/lib/libcurl.so:system/lib/libcurl.so \
+    vendor/lge/d851/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/lge/d851/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/d851/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/d851/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
